@@ -1,0 +1,67 @@
+﻿doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="description" content="")
+    meta(name="author" content="")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+    title Tienda de David E Ibai
+  body(style="background-image: url(imagenes/desayunoBuffet.jpg); background-repeat:no-repeat; background-size: 100%;")
+    .d-flex.flex-column.flex-md-row.align-items-center.p-3.px-md-4.mb-3.bg-white.border-bottom.box-shadow
+      img.my-0.mr-md-auto.font-weight-normal(src="imagenes/logo.jpg" alt="" title="Mi comida")
+      nav.my-2.my-md-0.mr-md-3
+        a.p-2.text-dark(href="/howWeWork") ¿Cómo trabajamos?
+        a.p-2.text-dark(href="/contacto") Contacto
+    .pricing-header.px-3.py-3.pt-md-5.pb-md-4.mx-auto.text-center
+      h1.display-4(style="color:white;") Tienda de David e Ibai
+      p.lead(style="color:white; font-size:30px; font-weight:400;")
+        | Echa un vistazo rápido a los distintos productos que ofertamos para que la mañana se te haga más fácil
+    .container
+      .card-deck.mb-3.text-center
+        .card.mb-4.box-shadow(style="border-radius:15px; opacity:0.95;")
+          .card-header
+            h4.my-0.font-weight-normal Bebidas para el desayuno
+          .card-body
+            h3.card-title.pricing-card-title  No te quedes con sed nada más levantarte 
+            ul.list-unstyled.mt-3.mb-4
+              li Nesquik o Cola Cao
+              li Tés
+              li Zumos
+            a(href="/producto/1")
+              button.btn.btn-lg.btn-block.btn-primary(type="button") Quítate la sed!
+        .card.mb-4.box-shadow(style="border-radius:15px; opacity:0.95;")
+          .card-header
+            h4.my-0.font-weight-normal Para comer en el desayuno
+          .card-body
+            h3.card-title.pricing-card-title Levántate con las energías para trabajar
+            ul.list-unstyled.mt-3.mb-4
+              li Cereales
+              li Croassants
+              li Galletas
+            a(href="/producto/2")
+              button.btn.btn-lg.btn-block.btn-primary(type="button") Solucionar el hambre!
+        .card.mb-4.box-shadow(style="border-radius:15px; opacity:0.95;")
+          .card-header
+            h4.my-0.font-weight-normal No te vayas sin el almuerzo
+          .card-body
+            h3.card-title.pricing-card-title Llévate un almuerzo al trabajo
+            ul.list-unstyled.mt-3.mb-4
+              li Bocadillos
+              li Fruta
+              li Sandwiches
+            a(href="/producto/3")
+              button.btn.btn-lg.btn-block.btn-primary(type="button") El almuerzo!
+    //
+      Bootstrap core JavaScript
+      ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
+    script.
+      Holder.addTheme('thumb', {
+      bg: '#55595c',
+      fg: '#eceeef',
+      text: 'Thumbnail'
+      });
